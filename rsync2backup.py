@@ -34,12 +34,10 @@ class Constant:
     EXCLUDE = [".ansible/", ".docker/", ".minikube/", "awx/", "factcache/",
                "volume/", "Max Payne Savegames/", "HardWest/", "id_rsa*",
                "known_hosts", "main.log"]
-    INCLUDE = [".config/gtk-2.0/", ".config/gtk-3.0/", ".config/gtk-4.0/",
-               ".config/kde.org/", ".config/keepassxc/", ".config/manjaro/",
-               ".config/plasma-workspace/", ".bashrc", ".bash_profile",
-               ".hplip/", ".icons/", ".kde4/", ".themes/", ".ssh/",
-               "Development/", "Documents/", "Music/", "Pictures/", "Public/",
-               "Templates/", "Videos/"]
+    INCLUDE = [".bashrc", ".bash_profile", ".hplip/", ".icons/", ".kde4/",
+               ".themes/", ".ssh/", "config-backup", "Development/",
+               "Documents/", "Music/", "Pictures/", "Public/", "Templates/",
+               "Videos/"]
 
 
 ''' End of class Constant '''
